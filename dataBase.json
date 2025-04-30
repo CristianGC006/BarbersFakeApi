@@ -1,0 +1,48 @@
+{
+    "customers":[
+        {
+            "name":"Arturo Venegas",
+            "id":1,
+            "email":"arturovenegas@gmail.com",
+            "password":"123456"
+        },
+        {
+            "name":"Javier Gonzalez",
+            "id":2,
+            "email":"javiergonzalez@gmail.com",
+            "password":"JaviercitoBandido"
+        },
+        {
+            "name":"Hector Lavoe",
+            "id":3,
+            "email":"hectorlavoe@gmail.com",
+            "password":"Salserito123"
+        }
+    ],
+    "barbers":[
+        {
+            "name":"Robert Gil",
+            "id":1,
+            "email":"robertgil@gmail.com",
+            "password":"Robertito123"
+        },
+        {
+            "name":"John Doe",
+            "id":2,
+            "email":"JohnDoe@example.com",
+            "password":"JohnDoe123"
+        },
+        {
+            "name":"Jane Smith",
+            "id":3,
+            "email":"janesmith@example.com",
+            "password":"JaneSmith123"
+        },
+        {
+            "name":"Michael Johnson",
+            "id":4,
+            "email":"michaeljohnson@example.com",
+            "password":"Michael123"
+        }
+    ]
+}
