@@ -1,22 +1,42 @@
 {
     "customers":[
         {
-            "name":"Arturo Venegas",
-            "id":1,
-            "email":"arturovenegas@gmail.com",
-            "password":"123456"
+            "name": "Javier ",
+            "lastName": "Gonzalez",
+            "email": "javiergonzalez@gmail.com",
+            "phone": "3157451234",
+            "address": "calle 123 # 45-67",
+            "password": "JaviercitoBandido",
+            "id": 1
+           
         },
         {
-            "name":"Javier Gonzalez",
-            "id":2,
-            "email":"javiergonzalez@gmail.com",
-            "password":"JaviercitoBandido"
-        },
-        {
-            "name":"Hector Lavoe",
-            "id":3,
+            "name":"Hector",
+            "lastName":"Lavoe",
             "email":"hectorlavoe@gmail.com",
-            "password":"Salserito123"
+            "phone":"3157454234",
+            "address":"calle 456 # 78-90",
+            "password":"Salserito123",
+            "id":2
+        },
+        {
+            "name": "Gustavo ",
+            "lastName": "Ramirez",
+            "email": "gustavoramirez@gmail.com",
+            "phone": "3157452234",
+            "address": "calle 123 # 4-67",
+            "password": "Gustavocito",
+            "id": 3
+                },
+        {
+           
+            "name": "Hector",
+            "lastName": "Lavoe",
+            "email": "hectorlavoe@gmail.com",
+            "phone": "3157454234",
+            "address": "calle 456 # 78-90",
+            "password": "Salserito123",
+            "id": 4
         }
     ],
     "barbers":[
