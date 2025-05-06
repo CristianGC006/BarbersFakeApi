@@ -1,68 +1,298 @@
 {
-    "customers":[
-        {
-            "name": "Javier ",
-            "lastName": "Gonzalez",
-            "email": "javiergonzalez@gmail.com",
-            "phone": "3157451234",
-            "address": "calle 123 # 45-67",
-            "password": "JaviercitoBandido",
-            "id": 1
-           
-        },
-        {
-            "name":"Hector",
-            "lastName":"Lavoe",
-            "email":"hectorlavoe@gmail.com",
-            "phone":"3157454234",
-            "address":"calle 456 # 78-90",
-            "password":"Salserito123",
-            "id":2
-        },
-        {
-            "name": "Gustavo ",
-            "lastName": "Ramirez",
-            "email": "gustavoramirez@gmail.com",
-            "phone": "3157452234",
-            "address": "calle 123 # 4-67",
-            "password": "Gustavocito",
-            "id": 3
-                },
-        {
-           
-            "name": "Hector",
-            "lastName": "Lavoe",
-            "email": "hectorlavoe@gmail.com",
-            "phone": "3157454234",
-            "address": "calle 456 # 78-90",
-            "password": "Salserito123",
-            "id": 4
-        }
-    ],
-    "barbers":[
-        {
-            "name":"Robert Gil",
-            "id":1,
-            "email":"robertgil@gmail.com",
-            "password":"Robertito123"
-        },
-        {
-            "name":"John Doe",
-            "id":2,
-            "email":"JohnDoe@example.com",
-            "password":"JohnDoe123"
-        },
-        {
-            "name":"Jane Smith",
-            "id":3,
-            "email":"janesmith@example.com",
-            "password":"JaneSmith123"
-        },
-        {
-            "name":"Michael Johnson",
-            "id":4,
-            "email":"michaeljohnson@example.com",
-            "password":"Michael123"
-        }
-    ]
+  "customers": [
+    {
+      "name": "John",
+      "lastName": "Smith",
+      "email": "john.smith@email.com",
+      "phone": "1234567890",
+      "address": "123 Main Street",
+      "password": "secure123"
+    },
+    {
+      "name": "Emma",
+      "lastName": "Johnson",
+      "email": "emma.johnson@email.com",
+      "phone": "9876543210",
+      "address": "456 Oak Avenue",
+      "password": "pass456"
+    },
+    {
+      "name": "Michael",
+      "lastName": "Brown",
+      "email": "michael.brown@email.com",
+      "phone": "5555555555",
+      "address": "789 Pine Road",
+      "password": "brown789"
+    },
+    {
+      "name": "Sarah",
+      "lastName": "Wilson",
+      "email": "sarah.wilson@email.com",
+      "phone": "1112223333",
+      "address": "321 Elm Street",
+      "password": "wilson321"
+    }
+  ],
+  "barbers": [{      "id": 1,
+  "name": "Carlos",
+  "speciality": "Cortes clásicos",
+  "rating": 4.8,
+  "image": "carlos.jpg"}, {
+    "id": 2,
+      "name": "James",
+      "speciality": "Barbas y afeitados",
+      "rating": 4.9,
+      "image": "james.jpg"
+  }, {
+    "id": 3,
+      "name": "David",
+      "speciality": "Cortes modernos",
+      "rating": 4.7,
+      "image": "david.jpg"
+  }, {
+    "id": 4,
+      "name": "Robert",
+      "speciality": "Diseños y degradados",
+      "rating": 4.8,
+      "image": "robert.jpg"
+  }],
+  "services": [
+    {
+      "id": 1,
+      "name": "Mullet",
+      "price": 50,
+      "duration": 30,
+      "image": "Mullet.jpg"
+    },
+    {
+      "id": 2,
+      "name": "low Fade",
+      "price": 30,
+      "duration": 20,
+      "image": "low Fade.jpg"
+    },{
+        "id": 3,
+        "name": "High Fade",
+        "price": 35,
+        "duration": 25,
+        "image": "highfade.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Corte de barba con Maquina",
+        "price": 25,
+        "duration": 15,
+        "image": "beardtrim.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Corte y tinturado de cabello",
+        "price": 60,
+        "duration": 45,
+        "image": "haircolor.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Corte infantil",
+        "price": 25,
+        "duration": 20,
+        "image": "kidscut.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Corte con Navaja",
+        "price": 40,
+        "duration": 30,
+        "image": "razorshave.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Corte de cabello y Barba",
+        "price": 65,
+        "duration": 45,
+        "image": "combo.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mascarilla",
+        "price": 45,
+        "duration": 30,
+        "image": "facial.jpg"
+      }
+  ],
+  "appointments": [
+    {
+        "id": 1,
+        "customerId": 1,
+        "barberId": 2,
+        "serviceId": 3,
+        "date": "2025-05-05",
+        "time": "10:00",
+        "status": "confirmada",
+        "notes": "Cliente prefiere usar tijera"
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "barberId": 1,
+        "serviceId": 1,
+        "date": "2025-05-05",
+        "time": "11:00",
+        "status": "pendiente",
+        "notes": "Primera visita del cliente"
+      },
+      {
+        "id": 3,
+        "customerId": 3,
+        "barberId": 4,
+        "serviceId": 8,
+        "date": "2025-05-06",
+        "time": "14:30",
+        "status": "confirmada",
+        "notes": "Cliente solicita productos específicos para barba"
+      },
+      {
+        "id": 4,
+        "customerId": 4,
+        "barberId": 3,
+        "serviceId": 5,
+        "date": "2025-05-06",
+        "time": "16:00",
+        "status": "confirmada",
+        "notes": "Tintura especial requerida"
+      }
+  ],
+  "timeSlots": [
+    {
+        "id": 1,
+        "barberId": 1,
+        "day": "monday",
+        "slots": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
+      },
+      {
+        "id": 2,
+        "barberId": 1,
+        "day": "tuesday",
+        "slots": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
+      },
+      {
+        "id": 3,
+        "barberId": 2,
+        "day": "monday",
+        "slots": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
+      },
+      {
+        "id": 4,
+        "barberId": 2,
+        "day": "tuesday",
+        "slots": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
+      }
+  ],
+  "users":[
+    {
+        "id": 1,
+        "username": "admin_principal",
+        "password": "admin123_encrypted",
+        "role": "admin",
+        "adminId": 1
+      },
+      {
+        "id": 2,
+        "username": "admin_secundario",
+        "password": "admin456_encrypted",
+        "role": "admin",
+        "adminId": 2
+      },
+      {
+        "id": 3,
+        "username": "carlos_barber",
+        "password": "barber123_encrypted",
+        "role": "barber",
+        "barberId": 1
+      },
+      {
+        "id": 4,
+        "username": "james_barber",
+        "password": "barber456_encrypted",
+        "role": "barber",
+        "barberId": 2
+      },
+      {
+        "id": 5,
+        "username": "david_barber",
+        "password": "barber789_encrypted",
+        "role": "barber",
+        "barberId": 3
+      },
+      {
+        "id": 6,
+        "username": "robert_barber",
+        "password": "barber101_encrypted",
+        "role": "barber",
+        "barberId": 4
+      },
+      {
+        "id": 7,
+        "username": "john_client",
+        "password": "client123_encrypted",
+        "role": "customer",
+        "customerId": 1
+      },
+      {
+        "id": 8,
+        "username": "emma_client",
+        "password": "client456_encrypted",
+        "role": "customer",
+        "customerId": 2
+      },
+      {
+        "id": 9,
+        "username": "michael_client",
+        "password": "client789_encrypted",
+        "role": "customer",
+        "customerId": 3
+      },
+      {
+        "id": 10,
+        "username": "sarah_client",
+        "password": "client101_encrypted",
+        "role": "customer",
+        "customerId": 4
+      },
+      {
+        "id": 11,
+        "username": "peter_client",
+        "password": "client202_encrypted",
+        "role": "customer",
+        "customerId": 5
+      },
+      {
+        "id": 12,
+        "username": "laura_client",
+        "password": "client303_encrypted",
+        "role": "customer",
+        "customerId": 6
+      },
+      {
+        "id": 13,
+        "username": "alex_client",
+        "password": "client404_encrypted",
+        "role": "customer",
+        "customerId": 7
+      },
+      {
+        "id": 14,
+        "username": "maria_client",
+        "password": "client505_encrypted",
+        "role": "customer",
+        "customerId": 8
+      },
+      {
+        "id": 15,
+        "username": "daniel_client",
+        "password": "client606_encrypted",
+        "role": "customer",
+        "customerId": 9
+      }
+  ]
 }
